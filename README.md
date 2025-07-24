@@ -19,7 +19,8 @@ This solution uses **backtracking** to explore all valid paths. The board size a
 
 ## 💻 How It Works
 
-- The board is initialized as a 2D array.
+- The board is initialized as a 1D array wich made it more challenging.
+- The board can be edited on every run. (any number above 8 takes a lot of time and finds no Solution :) ).
 - The knight starts at a given position.
 - Recursively tries each of the 8 possible knight moves.
 - Uses backtracking to discard invalid paths.
